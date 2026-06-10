@@ -38,9 +38,9 @@
                     <div class="title"><a href="https://aclanthology.org/2025.emnlp-demos.45/">LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop</a></div>
                     <div class="authors"><strong>R. Zhao</strong>, A. Borov, J. Li, C. Aloisi, Y. He</div>
                     <ul class="highlights">
-                        <li>LLM-based system for generating personalised, curriculum-aligned feedback in science education</li>
-                        <li>Error-aware assessment module that captures nuanced reasoning errors</li>
-                        <li>Educator-in-the-loop interface for quality control and scalability</li>
+                        <li>LLM-based personalised, curriculum-aligned feedback system for science education</li>
+                        <li>Tracks student performance and knowledge across different topics</li>
+                        <li>Safety gate + educator control to ensure safe and reliable feedback</li>
                     </ul>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                     <ul class="highlights">
                         <li>Training-free framework improving instruction following by editing instruction-relevant neurons</li>
                         <li>FreeInstruct benchmark with 1,212 examples for evaluating performance in narrative-rich settings</li>
-                        <li>Strong results across varied tasks while maintaining generation quality</li>
+                        <li>Strong instruction adherence under various instruction attacks while maintaining generation quality</li>
                     </ul>
                 </div>
             </div>
@@ -157,9 +157,9 @@
                     <div class="title"><a href="https://arxiv.org/abs/2402.11051">Large Language Models Fall Short: Understanding Complex Relationships in Detective Narratives</a> <a href="https://github.com/BLPXSPG/Conan" class="code-link">[code]</a></div>
                     <div class="authors"><strong>R. Zhao</strong>*, Q. Zhu*, H. Xu, J. Li, Y. Zhou, Y. He, L. Gui</div>
                     <ul class="highlights">
-                        <li>Conan benchmark for evaluating LLMs on complex character relationship extraction from detective narratives</li>
-                        <li>Hierarchical relationship categories with role-oriented annotations (public vs. secret)</li>
-                        <li>Revealed significant limitations of GPT-4 in handling intricate relational dynamics</li>
+                        <li>Benchmark for complex character relationship understanding in story scenarios</li>
+                        <li>Multi-dimensional relationship annotations capturing differences across character perspectives</li>
+                        <li>Reveals LLMs tend to follow high-frequency expressions rather than reasoning through contradictory information</li>
                     </ul>
                 </div>
             </div>
@@ -266,39 +266,9 @@
 
             <div class="pub-item">
                 <div class="pub-content">
-                    <div class="title"><a href="https://arxiv.org/abs/2301.07183">Tracking Brand-Associated Polarity-Bearing Topics in User Reviews</a> <a href="https://github.com/BLPXSPG/dBTM" class="code-link">[code]</a></div>
-                    <div class="authors"><strong>R. Zhao</strong>, L. Gui, H. Yan, Y. He</div>
-                    <div class="venue">TACL 2023</div>
-                    <ul class="highlights">
-                        <li>Dynamic Brand-Topic Model (dBTM) for tracking brand sentiment over time</li>
-                        <li>Gaussian state space models with meta-learning for smooth topic transitions</li>
-                        <li>Outperforms baselines in brand ranking while maintaining coherent polarity topics</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <div class="pub-content">
-                    <div class="title"><a href="https://arxiv.org/abs/2305.04599">CONE: Unsupervised Contrastive Opinion Extraction</a> <a href="https://github.com/BLPXSPG/CONE" class="code-link">[code]</a></div>
-                    <div class="authors"><strong>R. Zhao</strong>, L. Gui, Y. He</div>
-                    <div class="venue">SIGIR 2023</div>
-                    <ul class="highlights">
-                        <li>Unsupervised method combining contrastive learning with iterative refinement for opinion extraction</li>
-                        <li>Disentangled latent aspect and sentiment representations without labelled data</li>
-                        <li>Quantifies aspect popularity and sentiment distributions for recommendations</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <div class="pub-content">
                     <div class="title"><a href="https://arxiv.org/abs/2305.14973">OverPrompt: Enhancing ChatGPT through Efficient In-Context Learning</a></div>
                     <div class="authors">J. Li*, <strong>R. Zhao</strong>*, Y. Yang, Y. He, L. Gui</div>
                     <div class="venue">NeurIPS 2023 Workshop</div>
-                    <ul class="highlights">
-                        <li>Batching multiple task inputs together to reduce token and time costs</li>
-                        <li>Cost-efficient zero-shot classification across diverse datasets</li>
-                    </ul>
                 </div>
             </div>
 
@@ -307,11 +277,35 @@
                     <div class="title"><a href="https://arxiv.org/abs/2510.11052">Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States</a></div>
                     <div class="authors">Q. Zhu, Y. Yao, <strong>R. Zhao</strong>&dagger;, Y. Xiang, A. Saseendran, C. Jin, P. A. Teare, B. Liang, Y. He, L. Gui</div>
                     <div class="venue">Preprint</div>
-                    <ul class="highlights">
-                        <li>Latent Refinement Decoding for parallel text generation in diffusion-based LMs</li>
-                        <li>KL-divergence dynamics for convergence criteria in token finalisation</li>
-                        <li>Achieves up to 10.6x speedup on coding and reasoning tasks</li>
-                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="pub-category">
+            <h3>Opinion Mining</h3>
+
+            <div class="pub-item">
+                <div class="pub-content">
+                    <div class="title"><a href="https://arxiv.org/abs/2301.07183">Tracking Brand-Associated Polarity-Bearing Topics in User Reviews</a> <a href="https://github.com/BLPXSPG/dBTM" class="code-link">[code]</a></div>
+                    <div class="authors"><strong>R. Zhao</strong>, L. Gui, H. Yan, Y. He</div>
+                    <div class="venue">TACL 2023</div>
+                </div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-content">
+                    <div class="title"><a href="https://arxiv.org/abs/2305.04599">CONE: Unsupervised Contrastive Opinion Extraction</a> <a href="https://github.com/BLPXSPG/CONE" class="code-link">[code]</a></div>
+                    <div class="authors"><strong>R. Zhao</strong>, L. Gui, Y. He</div>
+                    <div class="venue">SIGIR 2023</div>
+                </div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-content">
+                    <div class="title">Adversarial Learning of Poisson Factorisation Model for Gauging Brand Sentiment in User Reviews</div>
+                    <div class="authors"><strong>R. Zhao</strong>, L. Gui, G. Pergola, Y. He</div>
+                    <div class="venue">EACL 2021</div>
                 </div>
             </div>
 
