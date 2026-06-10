@@ -114,6 +114,8 @@ nav .nav-links a.active { color: #1a6b8a; border-bottom: 2px solid #1a6b8a; padd
 .pub-item .code-link:hover { background: #e0f0f5; text-decoration: none; }
 .pub-item .authors { font-size: 0.88rem; color: #555; margin-top: 2px; }
 .pub-item .venue { font-size: 0.88rem; color: #777; font-style: italic; margin-top: 2px; }
+.pub-item .highlights { margin-top: 6px; padding-left: 16px; list-style: disc; }
+.pub-item .highlights li { font-size: 0.85rem; color: #444; margin-bottom: 3px; line-height: 1.5; }
 .pub-item .links { margin-top: 4px; }
 .pub-item .links a {
   font-size: 0.8rem;
