@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications - Runcong Zhao</title>
+    <title>Selected Publications - Runcong Zhao</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -20,7 +20,7 @@
     </nav>
 
     <main class="container">
-        <h2 class="section-title">Publications</h2>
+        <h2 class="section-title">Selected Publications</h2>
         <p style="font-size:0.9rem; color:#666; margin-bottom:24px;">
             (* Equal contribution, &dagger; Corresponding author) &nbsp;|&nbsp;
             <a href="https://scholar.google.com/citations?user=WbxmZDcAAAAJ">Full list on Google Scholar</a>
@@ -31,12 +31,44 @@
 
             <div class="pub-item">
                 <div class="pub-thumb-wrap">
+                    <img class="pub-thumb" src="img/papers/colearn.png" alt="CoLearn demo workflow">
+                    <span class="pub-venue-badge">EMNLP 2026</span>
+                </div>
+                <div class="pub-content">
+                    <div class="title"><a href="https://arxiv.org/abs/2609.21154">CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop</a></div>
+                    <div class="authors">K. He, Z. Wu, L. Zhang, <strong>R. Zhao</strong>, Y. He, J. Li</div>
+                    <ul class="highlights">
+                        <li>Agentic tutor with persistent learner-state memory for mastery and misconceptions</li>
+                        <li>Adaptive question generation targets weak topics and recurring misconceptions</li>
+                        <li>Memory-conditioned questions preferred 68&ndash;69% of the time in blind A/B evaluation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-thumb-wrap">
+                    <img class="pub-thumb" src="img/papers/edit.png" alt="EDIT training pipeline">
+                    <span class="pub-venue-badge">EMNLP 2026</span>
+                </div>
+                <div class="pub-content">
+                    <div class="title"><a href="https://arxiv.org/abs/2606.06350">EDIT: Evidence-Diagnosed Intervention Training for Rule-Faithful LLM Grading</a></div>
+                    <div class="authors">Z. Wu, L. Zhang, T. Wang, <strong>R. Zhao</strong>, P. Andrews, C. Aloisi, Y. He</div>
+                    <ul class="highlights">
+                        <li>Diagnoses flawed grading steps using posterior-belief and grounding signals</li>
+                        <li>Combines rubric-guided local revision with belief-guided reinforcement learning</li>
+                        <li>Improves accuracy and rule responsiveness across real-world grading benchmarks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-thumb-wrap">
                     <img class="pub-thumb" src="img/papers/learnlens.png" alt="">
                     <span class="pub-venue-badge">EMNLP 2025</span>
                 </div>
                 <div class="pub-content">
                     <div class="title"><a href="https://aclanthology.org/2025.emnlp-demos.45/">LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop</a></div>
-                    <div class="authors"><strong>R. Zhao</strong>, A. Borov, J. Li, C. Aloisi, Y. He</div>
+                    <div class="authors"><strong>R. Zhao</strong>, A. Bobrov, J. Li, C. Aloisi, Y. He</div>
                     <ul class="highlights">
                         <li>LLM-based personalised, curriculum-aligned feedback system for science education</li>
                         <li>Tracks student performance and knowledge across different topics</li>
@@ -218,6 +250,54 @@
 
             <div class="pub-item">
                 <div class="pub-thumb-wrap">
+                    <img class="pub-thumb" src="img/papers/latent-roadmap.png" alt="ASRD decoding framework">
+                    <span class="pub-venue-badge">EMNLP 2026 Oral</span>
+                </div>
+                <div class="pub-content">
+                    <div class="title"><a href="https://arxiv.org/abs/2606.16847">Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens</a></div>
+                    <div class="authors">Y. Yao, Q. Zhu, <strong>R. Zhao</strong>, X. Dai, Y. Xiang, Y. He, L. Gui</div>
+                    <ul class="highlights">
+                        <li>Identifies error propagation and local error reinforcement in revocable decoding</li>
+                        <li>Uses stable anchor tokens to guide generation and verify uncertain candidates</li>
+                        <li>Improves accuracy by up to 6.4% while accelerating throughput by up to 7.2&times;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-thumb-wrap">
+                    <img class="pub-thumb" src="img/papers/agent-memory.png" alt="xMemory framework">
+                    <span class="pub-venue-badge">NeurIPS 2026</span>
+                </div>
+                <div class="pub-content">
+                    <div class="title"><a href="https://arxiv.org/abs/2602.02007">Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation</a></div>
+                    <div class="authors">Z. Hu, Q. Zhu, <strong>R. Zhao</strong>, D. Liang, H. Yan, Y. He, L. Gui</div>
+                    <ul class="highlights">
+                        <li>Decouples interaction histories into reusable evidence before aggregation</li>
+                        <li>Maintains a revisable hierarchy with top-down, uncertainty-aware retrieval</li>
+                        <li>Improves answer quality and inference token efficiency across diverse LLMs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-thumb-wrap">
+                    <img class="pub-thumb" src="img/papers/latent-refinement.png" alt="Latent Refinement Decoding framework">
+                    <span class="pub-venue-badge">NeurIPS 2026</span>
+                </div>
+                <div class="pub-content">
+                    <div class="title"><a href="https://arxiv.org/abs/2510.11052">Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States</a></div>
+                    <div class="authors">Q. Zhu, Y. Yao, <strong>R. Zhao</strong>&dagger;, Y. Xiang, A. Saseendran, C. Jin, P. A. Teare, B. Liang, Y. He, L. Gui</div>
+                    <ul class="highlights">
+                        <li>Preserves distributional beliefs through latent refinement before token commitment</li>
+                        <li>Uses a predictive feedback loop with KL-based convergence and early stopping</li>
+                        <li>Improves coding and reasoning accuracy with speedups of up to 10.6&times;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-thumb-wrap">
                     <img class="pub-thumb" src="img/papers/wash.png" alt="">
                     <span class="pub-venue-badge">ICML 2026</span>
                 </div>
@@ -272,14 +352,6 @@
                 </div>
             </div>
 
-            <div class="pub-item">
-                <div class="pub-content">
-                    <div class="title"><a href="https://arxiv.org/abs/2510.11052">Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States</a></div>
-                    <div class="authors">Q. Zhu, Y. Yao, <strong>R. Zhao</strong>&dagger;, Y. Xiang, A. Saseendran, C. Jin, P. A. Teare, B. Liang, Y. He, L. Gui</div>
-                    <div class="venue">Preprint</div>
-                </div>
-            </div>
-
         </div>
 
         <div class="pub-category">
@@ -314,7 +386,7 @@
 
     <footer>
         <div class="container">
-            &copy; 2026 Runcong Zhao. Last updated: June 2026.
+            &copy; 2026 Runcong Zhao. Last updated: October 2026.
         </div>
     </footer>
 </body>
